@@ -13,18 +13,14 @@ class Track extends React.Component {
                 </svg>
                 </div>
                 <div className="track__title-text">
-                <a className="track__title-link" href="http://"
-                    >Guilt <span className="track__title-span"></span
-                ></a>
+                <a className="track__title-link" href="http://">Guilt <span className="track__title-span"></span></a>
                 </div>
             </div>
             <div className="track__author">
                 <a className="track__author-link" href="http://">Nero</a>
             </div>
             <div className="track__album">
-                <a className="track__album-link" href="http://"
-                >Welcome Reality</a
-                >
+                <a className="track__album-link" href="http://">Welcome Reality</a>
             </div>
             <div className="track__time">
                 <svg className="track__time-svg" alt="time">
@@ -44,15 +40,12 @@ class Track extends React.Component {
                 </svg>
                 </div>
                 <div className="track__title-text">
-                <a className="track__title-link" href="http://"
-                    >Elektro <span className="track__title-span"></span
-                ></a>
+                <a className="track__title-link" href="http://">Elektro <span className="track__title-span"></span>
+                </a>
                 </div>
             </div>
             <div className="track__author">
-                <a className="track__author-link" href="http://"
-                >Dynoro, Outwork, Mr. Gee</a
-                >
+                <a className="track__author-link" href="http://">Dynoro, Outwork, Mr. Gee</a>
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://">Elektro</a>
@@ -75,15 +68,12 @@ class Track extends React.Component {
                 </svg>
                 </div>
                 <div className="track__title-text">
-                <a className="track__title-link" href="http://"
-                    >I’m Fire <span className="track__title-span"></span
-                ></a>
+                <a className="track__title-link" href="http://">I’m Fire <span className="track__title-span"></span>
+                </a>
                 </div>
             </div>
             <div className="track__author">
-                <a className="track__author-link" href="http://"
-                >Ali Bakgor</a
-                >
+                <a className="track__author-link" href="http://">Ali Bakgor</a>
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://">I’m Fire</a>
@@ -108,14 +98,12 @@ class Track extends React.Component {
                 <div className="track__title-text">
                 <a className="track__title-link" href="http://"
                     >Non Stop
-                    <span className="track__title-span">(Remix)</span></a
-                >
+                    <span className="track__title-span">(Remix)</span></a>
                 </div>
             </div>
             <div className="track__author">
                 <a className="track__author-link" href="http://"
-                >Стоункат, Psychopath</a
-                >
+                >Стоункат, Psychopath</a>
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://">Non Stop</a>
@@ -141,15 +129,12 @@ class Track extends React.Component {
                 <a className="track__title-link" href="http://"
                     >Run Run
                     <span className="track__title-span"
-                    >(feat. AR/CO)</span
-                    ></a
-                >
+                    >(feat. AR/CO)</span></a>
                 </div>
             </div>
             <div className="track__author">
                 <a className="track__author-link" href="http://"
-                >Jaded, Will Clarke, AR/CO</a
-                >
+                >Jaded, Will Clarke, AR/CO</a>
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://">Run Run</a>
@@ -175,20 +160,16 @@ class Track extends React.Component {
                 <a className="track__title-link" href="http://"
                     >Eyes on Fire
                     <span className="track__title-span"
-                    >(Zeds Dead Remix)</span
-                    ></a
-                >
+                    >(Zeds Dead Remix)</span></a>
                 </div>
             </div>
             <div className="track__author">
                 <a className="track__author-link" href="http://"
-                >Blue Foundation, Zeds Dead</a
-                >
+                >Blue Foundation, Zeds Dead</a>
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://"
-                >Eyes on Fire</a
-                >
+                >Eyes on Fire</a>
             </div>
             <div className="track__time">
                 <svg className="track__time-svg" alt="time">
@@ -211,15 +192,12 @@ class Track extends React.Component {
                 <a className="track__title-link" href="http://"
                     >Mucho Bien
                     <span className="track__title-span"
-                    >(Hi Profile Remix)</span
-                    ></a
-                >
+                    >(Hi Profile Remix)</span></a>
                 </div>
             </div>
             <div className="track__author">
                 <a className="track__author-link" href="http://"
-                >HYBIT, Mr. Black, Offer Nissim, Hi Profile</a
-                >
+                >HYBIT, Mr. Black, Offer Nissim, Hi Profile</a>
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://">Mucho Bien</a>
@@ -244,8 +222,7 @@ class Track extends React.Component {
                 <div className="track__title-text">
                 <a className="track__title-link" href="http://"
                     >Knives n Cherries
-                    <span className="track__title-span"></span
-                ></a>
+                    <span className="track__title-span"></span></a>
                 </div>
             </div>
             <div className="track__author">
@@ -253,8 +230,7 @@ class Track extends React.Component {
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://"
-                >Captivating</a
-                >
+                >Captivating</a>
             </div>
             <div className="track__time">
                 <svg className="track__time-svg" alt="time">
@@ -276,8 +252,7 @@ class Track extends React.Component {
                 <div className="track__title-text">
                 <a className="track__title-link" href="http://"
                     >Knives n Cherries
-                    <span className="track__title-span"></span
-                ></a>
+                    <span className="track__title-span"></span></a>
                 </div>
             </div>
             <div className="track__author">
@@ -285,8 +260,7 @@ class Track extends React.Component {
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://"
-                >Captivating</a
-                >
+                >Captivating</a>
             </div>
             <div className="track__time">
                 <svg className="track__time-svg" alt="time">
@@ -308,8 +282,7 @@ class Track extends React.Component {
                 <div className="track__title-text">
                 <a className="track__title-link" href="http://"
                     >Knives n Cherries
-                    <span className="track__title-span"></span
-                ></a>
+                    <span className="track__title-span"></span></a>
                 </div>
             </div>
             <div className="track__author">
@@ -317,8 +290,7 @@ class Track extends React.Component {
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://"
-                >Captivating</a
-                >
+                >Captivating</a>
             </div>
             <div className="track__time">
                 <svg className="track__time-svg" alt="time">
@@ -340,8 +312,7 @@ class Track extends React.Component {
                 <div className="track__title-text">
                 <a className="track__title-link" href="http://"
                     >Knives n Cherries
-                    <span className="track__title-span"></span
-                ></a>
+                    <span className="track__title-span"></span></a>
                 </div>
             </div>
             <div className="track__author">
@@ -349,8 +320,7 @@ class Track extends React.Component {
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://"
-                >Captivating</a
-                >
+                >Captivating</a>
             </div>
             <div className="track__time">
                 <svg className="track__time-svg" alt="time">
@@ -372,8 +342,7 @@ class Track extends React.Component {
                 <div className="track__title-text">
                 <a className="track__title-link" href="http://"
                     >Knives n Cherries
-                    <span className="track__title-span"></span
-                ></a>
+                    <span className="track__title-span"></span></a>
                 </div>
             </div>
             <div className="track__author">
@@ -381,8 +350,7 @@ class Track extends React.Component {
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://"
-                >Captivating</a
-                >
+                >Captivating</a>
             </div>
             <div className="track__time">
                 <svg className="track__time-svg" alt="time">
@@ -404,8 +372,7 @@ class Track extends React.Component {
                 <div className="track__title-text">
                 <a className="track__title-link" href="http://"
                     >Knives n Cherries
-                    <span className="track__title-span"></span
-                ></a>
+                    <span className="track__title-span"></span></a>
                 </div>
             </div>
             <div className="track__author">
@@ -413,8 +380,7 @@ class Track extends React.Component {
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://"
-                >Captivating</a
-                >
+                >Captivating</a>
             </div>
             <div className="track__time">
                 <svg className="track__time-svg" alt="time">
@@ -436,8 +402,7 @@ class Track extends React.Component {
                 <div className="track__title-text">
                 <a className="track__title-link" href="http://"
                     >Knives n Cherries
-                    <span className="track__title-span"></span
-                ></a>
+                    <span className="track__title-span"></span></a>
                 </div>
             </div>
             <div className="track__author">
@@ -445,8 +410,7 @@ class Track extends React.Component {
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://"
-                >Captivating</a
-                >
+                >Captivating</a>
             </div>
             <div className="track__time">
                 <svg className="track__time-svg" alt="time">
@@ -468,19 +432,16 @@ class Track extends React.Component {
                 <div className="track__title-text">
                 <a className="track__title-link" href="http://"
                     >How Deep Is Your Love
-                    <span className="track__title-span"></span
-                ></a>
+                    <span className="track__title-span"></span></a>
                 </div>
             </div>
             <div className="track__author">
                 <a className="track__author-link" href="http://"
-                >Calvin Harris, Disciples</a
-                >
+                >Calvin Harris, Disciples</a>
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://"
-                >How Deep Is Your Love</a
-                >
+                >How Deep Is Your Love</a>
             </div>
             <div className="track__time">
                 <svg className="track__time-svg" alt="time">
@@ -501,8 +462,7 @@ class Track extends React.Component {
                 </div>
                 <div className="track__title-text">
                 <a className="track__title-link" href="http://"
-                    >Morena <span className="track__title-span"></span
-                ></a>
+                    >Morena <span className="track__title-span"></span></a>
                 </div>
             </div>
             <div className="track__author">
@@ -510,8 +470,7 @@ class Track extends React.Component {
             </div>
             <div className="track__album">
                 <a className="track__album-link" href="http://"
-                >Soundz Made in Romania</a
-                >
+                >Soundz Made in Romania</a>
             </div>
             <div className="track__time">
                 <svg className="track__time-svg" alt="time">
@@ -532,8 +491,7 @@ class Track extends React.Component {
                 </div>
                 <div className="track__title-text">
                 <a className="track__title-link" href="http://">
-                    <span className="track__title-span"></span
-                ></a>
+                    <span className="track__title-span"></span></a>
                 </div>
             </div>
             <div className="track__author">
