@@ -1,7 +1,4 @@
 import React from 'react'
-import PlayListImg01 from "../img/playlist01.png"
-import PlayListImg02 from "../img/playlist02.png"
-import PlayListImg03 from "../img/playlist03.png"
 
 function Sidebar() {
     return(

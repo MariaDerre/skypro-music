@@ -28,5 +28,4 @@ return(
 )
     }
 
-
 export default NavMenu
