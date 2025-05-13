@@ -1,13 +1,12 @@
 import React from 'react'
 import Track from './track';
 
-class Tracklist extends React.Component {
-    render() {
+function Tracklist() {
     return(
     <div className="main__centerblock centerblock">
         <div className="centerblock__search search">
           <svg className="search__svg">
-            <use href="img/icon/sprite.svg#icon-search"></use>
+            <use href="../img/icon/sprite.svg#icon-search"></use>
           </svg>
           <input
             className="search__text"
@@ -43,6 +42,6 @@ class Tracklist extends React.Component {
     </div>
     )
 }
-}
+
 
 export default Tracklist;

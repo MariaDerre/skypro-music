@@ -1,6 +1,5 @@
 import React from "react";
 import '../signup.css'
-import LogoModal from "../img/logo_modal.png"
 
 function SignUp() {
     return(
@@ -10,7 +9,7 @@ function SignUp() {
           <form class="modal__form-login">
             <a href="../">
               <div class="modal__logo">
-                <img src={LogoModal} alt="logo" />
+                <img src="img/logo_modal.png" alt="logo" />
               </div>
             </a>
             <input

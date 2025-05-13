@@ -1,7 +1,6 @@
 import React from 'react'
 
-class Track extends React.Component {
-    render() {
+function Track() {
     return(
     <div className="content__playlist playlist">
         <div className="playlist__item">
@@ -9,7 +8,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -36,7 +35,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -64,7 +63,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -92,7 +91,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -122,7 +121,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -153,7 +152,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="..img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -185,7 +184,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="../img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -216,7 +215,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use href="../img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -246,7 +245,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -276,7 +275,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -306,7 +305,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -336,7 +335,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -366,7 +365,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -396,7 +395,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -426,7 +425,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -457,7 +456,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -486,7 +485,7 @@ class Track extends React.Component {
             <div className="track__title">
                 <div className="track__title-image">
                 <svg className="track__title-svg" alt="music">
-                    <use href="img/icon/sprite.svg#icon-note"></use>
+                    <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
                 </svg>
                 </div>
                 <div className="track__title-text">
@@ -510,7 +509,6 @@ class Track extends React.Component {
         </div>
     </div>
     )
-    }
 }
 
 export default Track;

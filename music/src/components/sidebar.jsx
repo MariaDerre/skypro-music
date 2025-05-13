@@ -3,8 +3,7 @@ import PlayListImg01 from "../img/playlist01.png"
 import PlayListImg02 from "../img/playlist02.png"
 import PlayListImg03 from "../img/playlist03.png"
 
-class Sidebar extends React.Component {
-    render() {
+function Sidebar() {
     return(
               <div className="main__sidebar sidebar">
         <div className="sidebar__personal">
@@ -21,7 +20,7 @@ class Sidebar extends React.Component {
               <a className="sidebar__link" href="#">
                 <img
                   className="sidebar__img"
-                  src={PlayListImg01}
+                  src="img/playlist01.png"
                   alt="day's playlist"
                 />
               </a>
@@ -30,7 +29,7 @@ class Sidebar extends React.Component {
               <a className="sidebar__link" href="#">
                 <img
                   className="sidebar__img"
-                  src={PlayListImg02}
+                  src="img/playlist02.png"
                   alt="day's playlist"
                 />
               </a>
@@ -39,7 +38,7 @@ class Sidebar extends React.Component {
               <a className="sidebar__link" href="#">
                 <img
                   className="sidebar__img"
-                  src={PlayListImg03}
+                  src="img/playlist03.png"
                   alt="day's playlist"
                 />
               </a>
@@ -48,7 +47,6 @@ class Sidebar extends React.Component {
         </div>
       </div>
     )
-}
 }
 
 export default Sidebar;

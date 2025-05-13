@@ -1,7 +1,6 @@
 import React from 'react'
 
-class AudioPlayer extends React.Component {
-    render() {
+function AudioPlayer() {
     return(
     <div className="bar">
       <div className="bar__content">
@@ -31,7 +30,7 @@ class AudioPlayer extends React.Component {
               </div>
               <div className="player__btn-shuffle _btn-icon">
                 <svg className="player__btn-shuffle-svg" alt="shuffle">
-                  <use href="img/icon/sprite.svg#icon-shuffle"></use>
+                  <use href="../img/icon/sprite.svg#icon-shuffle"></use>
                 </svg>
               </div>
             </div>
@@ -88,7 +87,6 @@ class AudioPlayer extends React.Component {
       </div>
     </div>
     )
-}
 }
 
 export default AudioPlayer;
