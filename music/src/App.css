@@ -296,6 +296,37 @@ body {
   margin-right: 15px;
 }
 
+.filter-popup {
+  border-radius: 12px;
+  padding: 36px;
+  background: white;
+  position: absolute;
+  width: 248px;
+  height: 305px;
+  background-color: rgb(49, 49, 49);
+  overflow: auto;
+
+}
+
+.filter-popup::-webkit-scrollbar {
+  width: 4px;
+}
+
+.filter-popup::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+}
+
+.filter-popup::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.filter-popup-div{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
 .filter__button {
   font-style: normal;
   font-weight: 400;
@@ -310,10 +341,30 @@ body {
   margin-right: 10px;
 }
 
+.filter__button._active {
+  background-color: #AD61FF;
+  color: white;
+}
+
+.filter-popup-text{
+  font-family: StratosSkyeng;
+  font-weight: 400;
+  font-size: 20px;
+  height: 24px;
+  justify-content: center;
+}
+
+.filter-popup-text:hover {
+  color: rgb(182, 114, 255);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .content__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: flex-start;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
@@ -323,7 +374,6 @@ body {
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
   margin-bottom: 24px;
 }
 

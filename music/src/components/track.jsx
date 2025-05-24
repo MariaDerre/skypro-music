@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 
-
 function Track() {
 
     const [isLoading, setIsLoading] = useState(true);
@@ -30,7 +29,7 @@ function Track() {
                     <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
                 </div>
                 <div className="track__album">
-                    <Skeleton width="339px" height="20px" baseColor='#a9a9a9'/>
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
                 </div>
             </div>
 
@@ -47,7 +46,7 @@ function Track() {
                     <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
                 </div>
                 <div className="track__album">
-                    <Skeleton width="339px" height="20px" baseColor='#a9a9a9'/>
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
                 </div>
             </div>
 
@@ -64,7 +63,7 @@ function Track() {
                     <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
                 </div>
                 <div className="track__album">
-                    <Skeleton width="339px" height="20px" baseColor='#a9a9a9'/>
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
                 </div>
             </div>
             
@@ -81,7 +80,7 @@ function Track() {
                     <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
                 </div>
                 <div className="track__album">
-                    <Skeleton width="339px" height="20px" baseColor='#a9a9a9'/>
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
                 </div>
             </div>
 
@@ -98,7 +97,7 @@ function Track() {
                     <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
                 </div>
                 <div className="track__album">
-                    <Skeleton width="339px" height="20px" baseColor='#a9a9a9'/>
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
                 </div>
             </div>
 
@@ -115,7 +114,7 @@ function Track() {
                     <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
                 </div>
                 <div className="track__album">
-                    <Skeleton width="339px" height="20px" baseColor='#a9a9a9'/>
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
                 </div>
             </div>
 
@@ -132,7 +131,7 @@ function Track() {
                     <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
                 </div>
                 <div className="track__album">
-                    <Skeleton width="339px" height="20px" baseColor='#a9a9a9'/>
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
                 </div>
             </div>
             
@@ -149,7 +148,7 @@ function Track() {
                     <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
                 </div>
                 <div className="track__album">
-                    <Skeleton width="339px" height="20px" baseColor='#a9a9a9'/>
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
                 </div>
             </div>
 
@@ -166,7 +165,7 @@ function Track() {
                     <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
                 </div>
                 <div className="track__album">
-                    <Skeleton width="339px" height="20px" baseColor='#a9a9a9'/>
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
                 </div>
             </div>
             
@@ -183,7 +182,7 @@ function Track() {
                     <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
                 </div>
                 <div className="track__album">
-                    <Skeleton width="339px" height="20px" baseColor='#a9a9a9'/>
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
                 </div>
             </div>
         </div>
