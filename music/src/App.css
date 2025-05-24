@@ -374,7 +374,7 @@ body {
 
 .playlist__item {
   width: 100%;
-  display: block;
+  display: flex;
   margin-bottom: 12px;
 }
 
@@ -456,6 +456,7 @@ body {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .track__author-link {
@@ -469,6 +470,8 @@ body {
 
 .track__album {
   width: 245px;
+  display: flex;
+  align-items: center;
 }
 
 .track__album-link {
@@ -477,6 +480,10 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #696969;
+}
+
+.track__time {
+  display: flex
 }
 
 .track__time-svg {
