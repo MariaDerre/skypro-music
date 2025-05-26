@@ -1,5 +1,4 @@
-import React, { createContext, useState } from 'react'
-import NavMenu from './navMenu';
+import React, { useState } from 'react'
 
 const BurgerMenu = () => {
   // состояние для отслеживания открытия/закрытия меню

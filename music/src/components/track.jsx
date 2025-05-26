@@ -1,6 +1,193 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import Skeleton from 'react-loading-skeleton';
+import 'react-loading-skeleton/dist/skeleton.css';
 
 function Track() {
+
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+        setIsLoading(false);
+        }, 5000);
+        return () => clearTimeout(timer);
+    }, []);
+
+    if (isLoading) {
+        return(
+        <div className="content__playlist playlist">
+            <div className="playlist__item">
+                <div className="track__title">
+                    <div className="track__title-image">
+                    <Skeleton width={51} height={51} baseColor='#a9a9a9'/>
+                    </div>
+                <div className="track__title-text">
+                <Skeleton width="350px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+                </div>
+                <div className="track__author">
+                    <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
+                </div>
+                <div className="track__album">
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+            </div>
+
+            <div className="playlist__item">
+                <div className="track__title">
+                    <div className="track__title-image">
+                    <Skeleton width={51} height={51} baseColor='#a9a9a9'/>
+                    </div>
+                <div className="track__title-text">
+                <Skeleton width="350px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+                </div>
+                <div className="track__author">
+                    <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
+                </div>
+                <div className="track__album">
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+            </div>
+
+            <div className="playlist__item">
+                <div className="track__title">
+                    <div className="track__title-image">
+                    <Skeleton width={51} height={51} baseColor='#a9a9a9'/>
+                    </div>
+                <div className="track__title-text">
+                <Skeleton width="350px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+                </div>
+                <div className="track__author">
+                    <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
+                </div>
+                <div className="track__album">
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+            </div>
+            
+            <div className="playlist__item">
+                <div className="track__title">
+                    <div className="track__title-image">
+                    <Skeleton width={51} height={51} baseColor='#a9a9a9'/>
+                    </div>
+                <div className="track__title-text">
+                <Skeleton width="350px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+                </div>
+                <div className="track__author">
+                    <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
+                </div>
+                <div className="track__album">
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+            </div>
+
+            <div className="playlist__item">
+                <div className="track__title">
+                    <div className="track__title-image">
+                    <Skeleton width={51} height={51} baseColor='#a9a9a9'/>
+                    </div>
+                <div className="track__title-text">
+                <Skeleton width="350px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+                </div>
+                <div className="track__author">
+                    <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
+                </div>
+                <div className="track__album">
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+            </div>
+
+            <div className="playlist__item">
+                <div className="track__title">
+                    <div className="track__title-image">
+                    <Skeleton width={51} height={51} baseColor='#a9a9a9'/>
+                    </div>
+                <div className="track__title-text">
+                <Skeleton width="350px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+                </div>
+                <div className="track__author">
+                    <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
+                </div>
+                <div className="track__album">
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+            </div>
+
+            <div className="playlist__item">
+                <div className="track__title">
+                    <div className="track__title-image">
+                    <Skeleton width={51} height={51} baseColor='#a9a9a9'/>
+                    </div>
+                <div className="track__title-text">
+                <Skeleton width="350px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+                </div>
+                <div className="track__author">
+                    <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
+                </div>
+                <div className="track__album">
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+            </div>
+            
+            <div className="playlist__item">
+                <div className="track__title">
+                    <div className="track__title-image">
+                    <Skeleton width={51} height={51} baseColor='#a9a9a9'/>
+                    </div>
+                <div className="track__title-text">
+                <Skeleton width="350px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+                </div>
+                <div className="track__author">
+                    <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
+                </div>
+                <div className="track__album">
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+            </div>
+
+            <div className="playlist__item">
+                <div className="track__title">
+                    <div className="track__title-image">
+                    <Skeleton width={51} height={51} baseColor='#a9a9a9'/>
+                    </div>
+                <div className="track__title-text">
+                <Skeleton width="350px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+                </div>
+                <div className="track__author">
+                    <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
+                </div>
+                <div className="track__album">
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+            </div>
+            
+            <div className="playlist__item">
+                <div className="track__title">
+                    <div className="track__title-image">
+                    <Skeleton width={51} height={51} baseColor='#a9a9a9'/>
+                    </div>
+                <div className="track__title-text">
+                <Skeleton width="350px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+                </div>
+                <div className="track__author">
+                    <Skeleton width="300px" height="20px" baseColor='#a9a9a9' />
+                </div>
+                <div className="track__album">
+                    <Skeleton width="310px" height="20px" baseColor='#a9a9a9'/>
+                </div>
+            </div>
+        </div>
+    )}
+
     return(
     <div className="content__playlist playlist">
         <div className="playlist__item">

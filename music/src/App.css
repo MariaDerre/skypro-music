@@ -296,6 +296,38 @@ body {
   margin-right: 15px;
 }
 
+.filter-popup {
+  border-radius: 12px;
+  padding: 36px;
+  background: white;
+  position: absolute;
+  width: 248px;
+  height: 305px;
+  background-color: rgb(49, 49, 49);
+  overflow: auto;
+  margin-top: 10px;
+
+}
+
+.filter-popup::-webkit-scrollbar {
+  width: 4px;
+}
+
+.filter-popup::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+}
+
+.filter-popup::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.filter-popup-div{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
 .filter__button {
   font-style: normal;
   font-weight: 400;
@@ -310,10 +342,30 @@ body {
   margin-right: 10px;
 }
 
+.filter__button._active {
+  border: 1px solid rgb(173, 97, 255);
+  color: rgb(173, 97, 255);
+}
+
+.filter-popup-text{
+  font-family: StratosSkyeng;
+  font-weight: 400;
+  font-size: 20px;
+  height: 24px;
+  justify-content: center;
+}
+
+.filter-popup-text:hover {
+  color: rgb(182, 114, 255);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .content__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: flex-start;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
@@ -323,7 +375,6 @@ body {
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
   margin-bottom: 24px;
 }
 
@@ -374,7 +425,7 @@ body {
 
 .playlist__item {
   width: 100%;
-  display: block;
+  display: flex;
   margin-bottom: 12px;
 }
 
@@ -456,6 +507,7 @@ body {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .track__author-link {
@@ -469,6 +521,8 @@ body {
 
 .track__album {
   width: 245px;
+  display: flex;
+  align-items: center;
 }
 
 .track__album-link {
@@ -477,6 +531,10 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #696969;
+}
+
+.track__time {
+  display: flex
 }
 
 .track__time-svg {
