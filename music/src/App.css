@@ -305,6 +305,7 @@ body {
   height: 305px;
   background-color: rgb(49, 49, 49);
   overflow: auto;
+  margin-top: 10px;
 
 }
 
@@ -342,8 +343,8 @@ body {
 }
 
 .filter__button._active {
-  background-color: #AD61FF;
-  color: white;
+  border: 1px solid rgb(173, 97, 255);
+  color: rgb(173, 97, 255);
 }
 
 .filter-popup-text{
