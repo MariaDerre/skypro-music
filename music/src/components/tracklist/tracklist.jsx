@@ -103,9 +103,9 @@ function Tracklist() {
         <S.CenterBlockContent>
           <S.ContentTitle>
             <S.PlaylistTitleCol width='447px'>Трек</S.PlaylistTitleCol>
-            <S.PlaylistTitleCol width='321'>ИСПОЛНИТЕЛЬ</S.PlaylistTitleCol>
-            <S.PlaylistTitleCol width='245'>АЛЬБОМ</S.PlaylistTitleCol>
-            <S.PlaylistTitleCol width='60' align = 'end'>
+            <S.PlaylistTitleCol width='321px'>ИСПОЛНИТЕЛЬ</S.PlaylistTitleCol>
+            <S.PlaylistTitleCol width='245px'>АЛЬБОМ</S.PlaylistTitleCol>
+            <S.PlaylistTitleCol width='60px' align = 'end'>
               <S.PlaylistTitleSvg alt="time">
                 <use href="img/icon/sprite.svg#icon-watch"></use>
               </S.PlaylistTitleSvg>
