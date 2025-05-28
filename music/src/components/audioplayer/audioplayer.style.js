@@ -125,15 +125,15 @@ export const PlayerBtnRepeatSvg = styled.svg`
 
 export const PlayerBtnShuffle = styled.div`
   padding:5px; 
-    display:flex; 
-    align-items:center; 
+  display:flex; 
+  align-items:center; 
 `;
 
 export const PlayerBtnShuffleSvg = styled.svg`
-   width:19px; 
-   height:12px; 
-   fill:transparent; 
-   stroke:#696969; 
+  width:19px; 
+  height:12px; 
+  fill:transparent; 
+  stroke:#696969; 
 `;
 export const PlayerTrackPlay = styled.div`
   display: -webkit-box;
