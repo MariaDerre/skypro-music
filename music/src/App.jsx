@@ -1,23 +1,23 @@
-import React from 'react'
-import './App.css'
-import NavMenu from './components/navMenu';
-import Tracklist from './components/tracklist';
-import Sidebar from './components/sidebar';
-import AudioPlayer from './components/audioplayer';
+import NavMenu from './components/navMenu/navMenu';
+import Tracklist from './components/tracklist/tracklist';
+import Sidebar from './components/sidebar/sidebar';
+import AudioPlayer from './components/audioplayer/audioplayer';
+import * as S from './app.style'
 
 function App() {
 return(
-  <div className="wrapper">
-  <div className="container">
-    <main className="main">
+  <S.Wrapper>
+  <S.GlobalStyles/>
+  <S.Container>
+    <S.Main>
       <NavMenu/>
       <Tracklist/>
       <Sidebar/>
-    </main>
+    </S.Main>
     <AudioPlayer/>
     <footer className="footer"></footer>
-  </div>
-</div>
+  </S.Container>
+</S.Wrapper>
 );
 }
 
