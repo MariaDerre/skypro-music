@@ -1,42 +1,46 @@
 import React from "react";
-import '../signup.css'
+import * as S from './signup.style'
+import App from '../../App'
 
 function SignUp() {
     return(
-        <div class="wrapper">
-      <div class="container-signup">
-        <div class="modal__block">
-          <form class="modal__form-login">
+      <S.Wrapper>
+      <S.GlobalStyles/>
+      <S.ContainerSignUp>
+        <S.ModalBlock>
+          <S.ModalFormLogin>
             <a href="../">
-              <div class="modal__logo">
-                <img src="img/logo_modal.png" alt="logo" />
-              </div>
+              <S.ModalLogo>
+                <S.ModalLogoImg src="img/logo_modal.png" alt="logo" />
+              </S.ModalLogo>
             </a>
-            <input
-              class="modal__input login"
+            <S.ModalInput
+              class="login"
               type="text"
               name="login"
               placeholder="Почта"
             />
-            <input
-              class="modal__input password-first"
+            <S.ModalInput
+              class="password-first"
               type="password"
               name="password"
               placeholder="Пароль"
             />
-            <input
-              class="modal__input password-double"
+            <S.ModalInput
+              class="password-double"
               type="password"
               name="password"
               placeholder="Повторите пароль"
             />
-            <button class="modal__btn-signup-ent">
-              <a href="../index.html">Зарегистрироваться</a>
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
+            <S.ModalBtnSignUpEnt>
+              <S.ModalBtnSignUpEntA onClick={(e) => {
+                  e.preventDefault();
+                  App();}}>Зарегистрироваться</S.ModalBtnSignUpEntA>
+            </S.ModalBtnSignUpEnt>
+          </S.ModalFormLogin>
+        </S.ModalBlock>
+      </S.ContainerSignUp>
+    </S.Wrapper>
     )
 }
 

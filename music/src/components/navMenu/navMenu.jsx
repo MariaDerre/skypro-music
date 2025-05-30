@@ -1,4 +1,4 @@
-import BurgerMenu from './burgerMenu'
+import BurgerMenu from '../burgerMenu/burgerMenu'
 import * as S from './navMenu.style'
 
 function NavMenu() {

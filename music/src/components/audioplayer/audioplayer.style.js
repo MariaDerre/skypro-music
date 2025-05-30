@@ -155,7 +155,7 @@ export const TrackPlayContain = styled.div`
   -ms-flex-align: center;
   align-items: center;
 `
-export const TrrackPlayImage = styled.div`
+export const TrackPlayImage = styled.div`
   width: 51px;
   height: 51px;
   background-color: #313131;
@@ -233,7 +233,7 @@ export const TrackPlayDislike = styled.div`
   margin-left: 28.5px;
   padding: 5px;
 `
-export const TrackPlayDisikeSvg = styled.div`
+export const TrackPlayDisikeSvg = styled.svg`
   width: 14.34px;
   height: 13px;
   fill: transparent;

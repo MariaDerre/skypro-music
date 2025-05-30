@@ -51,9 +51,9 @@ function AudioPlayer() {
 
             <S.PlayerTrackPlay>
               <S.TrackPlayContain>
-                <S.TrrackPlayImage>
+                <S.TrackPlayImage>
                 <Skeleton width="51px" height="51px" baseColor='#a9a9a9'/>
-                </S.TrrackPlayImage>
+                </S.TrackPlayImage>
                 <S.TrackPlayAuthor>
                 <Skeleton width="60px" height="20px" baseColor='#a9a9a9'/>
                 </S.TrackPlayAuthor>
@@ -134,11 +134,11 @@ function AudioPlayer() {
 
             <S.PlayerTrackPlay>
               <S.TrackPlayContain>
-                <S.TrrackPlayImage>
+                <S.TrackPlayImage>
                   <S.TrackPlaySvg alt="music">
                     <use href="img/icon/sprite.svg#icon-note"></use>
                   </S.TrackPlaySvg>
-                </S.TrrackPlayImage>
+                </S.TrackPlayImage>
                 <S.TrackPlayAuthor>
                   <S.TrackPlayAuthorLink href="http://"
                     >Ты та...</S.TrackPlayAuthorLink>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import * as S from './burgerMenu.style'
+import SignIn from '../signin/signin';
 
 const BurgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,13 +21,16 @@ const BurgerMenu = () => {
         <S.NavMenu>
         <S.MenuList>
             <S.MenuItem>
-            <a href="#">Главное</a>
+            <S.MenuLink href="#">Главное</S.MenuLink>
             </S.MenuItem>
             <S.MenuItem>
-            <a href="#">Мой плейлист</a>
+            <S.MenuLink href="#">Мой плейлист</S.MenuLink>
             </S.MenuItem>
             <S.MenuItem>
-            <a href="../signin.html">Войти</a>
+            <S.MenuLink onClick={(e) => {
+              e.preventDefault();
+              SignIn();
+            }}>Войти</S.MenuLink>
             </S.MenuItem>
         </S.MenuList>
         </S.NavMenu>

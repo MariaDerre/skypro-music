@@ -1,39 +1,47 @@
-import React from "react";
-import '../signin.css' 
+import * as S from './signin.style'
+import App from '../../App' 
+import SignUp from '../signup/signup'
 
 function SignIn() {
     return(
-    <div class="wrapper">
-      <div class="container-enter">
-        <div class="modal__block">
-          <form class="modal__form-login" action="#">
+    <S.Wrapper>
+      <S.GlobalStyles/>
+      <S.ContainerEnter>
+        <S.ModalBlock>
+          <S.ModalFormLogin action="#">
             <a href="../">
-              <div class="modal__logo">
-                <img src="img/logo_modal.png" alt="logo" />
-              </div>
+              <S.ModalLogo>
+                <S.ModalLogoImg src="img/logo_modal.png" alt="logo" />
+              </S.ModalLogo>
             </a>
-            <input
-              class="modal__input login"
+            <S.ModalInput
+              class="login"
               type="text"
               name="login"
               placeholder="Почта"
             />
-            <input
-              class="modal__input password"
+            <S.ModalInput
+              class="password"
               type="password"
               name="password"
               placeholder="Пароль"
             />
-            <button class="modal__btn-enter">
-              <a href="../index.html">Войти</a>
-            </button>
-            <button class="modal__btn-signup">
-              <a href="signup.html">Зарегистрироваться</a>
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
+            <S.ModalBtnEnter>
+              <S.ModalBtnEnterA onClick={(e) => {
+                  e.preventDefault();
+                  App();}}>
+                Войти</S.ModalBtnEnterA>
+            </S.ModalBtnEnter>
+            <S.ModalBtnSignUp>
+              <S.ModalBtnSignUpA onClick={(e) => {
+                  e.preventDefault();
+                  SignUp();}}>
+                Зарегистрироваться</S.ModalBtnSignUpA>
+            </S.ModalBtnSignUp>
+          </S.ModalFormLogin>
+        </S.ModalBlock>
+      </S.ContainerEnter>
+    </S.Wrapper>
     )
 }
 

@@ -1,4 +1,3 @@
-import './App.css'
 import NavMenu from './components/navMenu/navMenu';
 import Tracklist from './components/tracklist/tracklist';
 import Sidebar from './components/sidebar/sidebar';
