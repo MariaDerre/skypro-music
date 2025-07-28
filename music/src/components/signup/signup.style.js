@@ -1,3 +1,6 @@
+import styled, { createGlobalStyle } from 'styled-components'
+
+export const GlobalStyles = createGlobalStyle`
 * {
   margin: 0;
   padding: 0;
@@ -40,38 +43,27 @@ body {
   height: 100%;
   font-family: 'StratosSkyeng', sans-serif;
 }
-
-.wrapper {
+`
+export const Wrapper = styled.div`
   width: 100%;
   min-height: 100%;
   overflow: hidden;
-}
-
-.container-signup {
+`
+export const ContainerSignUp = styled.div`
   max-width: 100%;
   height: 100vh;
   margin: 0 auto;
   position: relative;
   background-color: rgba(0, 0, 0, 0.85);
-}
-
-.modal__btn-signup-ent:hover {
-  background-color: #3F007D;
-}
-
-.modal__btn-signup-ent:active {
-  background-color: #271A58;
-}
-
-.modal__block {
+`
+export const ModalBlock = styled.div`
   position: absolute;
   z-index: 2;
   left: calc(50% - (366px/2));
   top: calc(50% - (439px/2));
   opacity: 1;
-}
-
-.modal__form-login {
+`
+export const ModalFormLogin = styled.form`
   width: 366px;
   height: 439px;
   background-color: #FFFFFF;
@@ -87,25 +79,22 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 43px 44px 47px 40px;
-}
 
-.modal__form-login input:first-child {
+  &input:first-child {
   margin-bottom: 30px;
-}
-
-.modal__logo {
+    }
+`
+export const ModalLogo = styled.div`
   width: 140px;
   height: 21px;
   margin-bottom: 34px;
   background-color: transparent;
-}
-
-.modal__logo img {
+`
+export const ModalLogoImg = styled.img`
   width: 140px;
   height: auto;
-}
-
-.modal__input {
+`
+export const ModalInput = styled.input`
   width: 100%;
   border-top: none;
   border-left: none;
@@ -114,9 +103,8 @@ body {
   padding: 8px 1px;
   margin-right: 3px;
   margin-bottom: 30px;
-}
 
-.modal__input::-webkit-input-placeholder {
+  &::-webkit-input-placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -124,8 +112,7 @@ body {
   letter-spacing: -0.05px;
   color: #D0CECE;
 }
-
-.modal__input:-ms-input-placeholder {
+  &:-ms-input-placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -133,8 +120,7 @@ body {
   letter-spacing: -0.05px;
   color: #D0CECE;
 }
-
-.modal__input::-ms-input-placeholder {
+  &::-ms-input-placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -142,8 +128,7 @@ body {
   letter-spacing: -0.05px;
   color: #D0CECE;
 }
-
-.modal__input::placeholder {
+  &::placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -151,8 +136,8 @@ body {
   letter-spacing: -0.05px;
   color: #D0CECE;
 }
-
-.modal__btn-signup-ent {
+`
+export const ModalBtnSignUpEnt = styled.button`
   width: 278px;
   height: 62px;
   background-color: #580EA2;
@@ -169,9 +154,15 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
 
-.modal__btn-signup-ent a {
+    &:active {
+  background-color: #271A58;
+}
+  &:hover {
+  background-color: #3F007D;
+}
+`
+export const ModalBtnSignUpEntA = styled.a`
   width: 100%;
   height: 100%;
   font-style: normal;
@@ -189,4 +180,4 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
+`
