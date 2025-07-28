@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import * as S from './burgerMenu.style'
-import SignIn from '../signin/signin';
+import { Link, NavLink } from "react-router-dom";
 
 const BurgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,16 +21,13 @@ const BurgerMenu = () => {
         <S.NavMenu>
         <S.MenuList>
             <S.MenuItem>
-            <S.MenuLink href="#">Главное</S.MenuLink>
+            <S.MenuLink to="/">Главное</S.MenuLink>
             </S.MenuItem>
             <S.MenuItem>
-            <S.MenuLink href="#">Мой плейлист</S.MenuLink>
+            <S.MenuLink to="/favorites">Мой плейлист</S.MenuLink>
             </S.MenuItem>
             <S.MenuItem>
-            <S.MenuLink onClick={(e) => {
-              e.preventDefault();
-              SignIn();
-            }}>Войти</S.MenuLink>
+            <S.MenuLink to="/signin">Войти</S.MenuLink>
             </S.MenuItem>
         </S.MenuList>
         </S.NavMenu>
