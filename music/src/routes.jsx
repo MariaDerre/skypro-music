@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import SignIn from "./components/signin/signin";
-import { NotFound } from "./components/not-found/not-found";
-import SignUp from "./components/signup/signup";
+import SignIn from "./pages/signin/signin";
+import { NotFound } from "./pages/not-found/not-found";
+import SignUp from "./pages/signup/signup";
 import App from "./App";
-import { Favorites } from "./components/favorites/favorites";
-import { Category } from './components/category';
+import { Favorites } from "./pages/favorites/favorites";
+import { Category } from './pages/category';
 
 export const AppRoutes = () => {
     return (

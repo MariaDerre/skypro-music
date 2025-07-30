@@ -1,6 +1,6 @@
 import * as S from './signin.style'
 import App from '../../App' 
-import SignUp from '../signup/signup'
+import SignUp from '../../pages/signup/signup'
 
 function SignIn() {
     return(
