@@ -10,7 +10,6 @@ return(
     <S.Wrapper>
     <S.GlobalStyles/>
     <S.Container>
-      <AppRoutes/>
       <S.Main>
         <NavMenu/>
         <Tracklist/>

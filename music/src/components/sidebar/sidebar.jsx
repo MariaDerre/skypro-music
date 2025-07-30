@@ -48,7 +48,7 @@ function Sidebar() {
         <S.SidebarBlock>
           <S.SidebarList>
             <S.SidebarItem>
-              <NavLink className="SidebarLink" to="/category1">
+              <NavLink className="SidebarLink" to="/category/1">
                 <S.SidebarImg
                   src="img/playlist01.png"
                   alt="day's playlist"
@@ -56,7 +56,7 @@ function Sidebar() {
               </NavLink>
             </S.SidebarItem>
             <S.SidebarItem>
-              <NavLink className="SidebarLink" to="/category2">
+              <NavLink className="SidebarLink" to="/category/2">
                 <S.SidebarImg
                   src="img/playlist02.png"
                   alt="day's playlist"
@@ -64,7 +64,7 @@ function Sidebar() {
               </NavLink>
             </S.SidebarItem>
             <S.SidebarItem>
-              <NavLink className="SidebarLink" to="/category3">
+              <NavLink className="SidebarLink" to="/category/3">
                 <S.SidebarImg
                   src="img/playlist03.png"
                   alt="day's playlist"

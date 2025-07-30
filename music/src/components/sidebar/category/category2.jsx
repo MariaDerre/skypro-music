@@ -1,5 +1,0 @@
-export function Category2 () {
-    return(
-        <h1>Category 2</h1>
-    )
-}
