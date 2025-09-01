@@ -5,16 +5,22 @@ import SignUp from "./pages/signup/signup";
 import App from "./App";
 import { Favorites } from "./pages/favorites/favorites";
 import { Category } from './pages/category';
+import {ProtectedRoute} from "./components/protected-route/protected-route"
 
 export const AppRoutes = () => {
-    return (
+  return (
     <Routes>
-        <Route path="/" element={<App/>} />
-        <Route path="/signin" element={<SignIn/>}/>
-        <Route path="/signup" element={<SignUp/>}/>
-        <Route path="/favorites" element={<Favorites/>}/>
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
+      {/* Защищённые маршруты */}
+      <Route element={<ProtectedRoute />}>
+        <Route path="/" element={<App />} />
+        <Route path="/favorites" element={<Favorites />} />
         <Route path="/category/:id" element={<Category />} />
-        <Route path="*" element={<NotFound />} />
+      </Route>
+
+      {/* Страница 404 */}
+      <Route path="*" element={<NotFound />} />
     </Routes>
-    );
+  );
 };

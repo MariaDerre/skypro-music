@@ -15,13 +15,13 @@ function SignIn() {
               </S.ModalLogo>
             </a>
             <S.ModalInput
-              class="login"
+              className="login"
               type="text"
               name="login"
               placeholder="Почта"
             />
             <S.ModalInput
-              class="password"
+              className="password"
               type="password"
               name="password"
               placeholder="Пароль"

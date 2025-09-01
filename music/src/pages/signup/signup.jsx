@@ -1,8 +1,16 @@
-import React from "react";
 import * as S from './signup.style'
 import App from '../../App'
+import { useNavigate } from 'react-router-dom';
 
 function SignUp() {
+  const navigate = useNavigate();
+
+  const handleRegister = (e) => {
+    e.preventDefault();
+    localStorage.setItem('user', 'true');
+    navigate('/');
+  };
+
     return(
       <S.Wrapper>
       <S.GlobalStyles/>
@@ -15,27 +23,25 @@ function SignUp() {
               </S.ModalLogo>
             </a>
             <S.ModalInput
-              class="login"
+              className="login"
               type="text"
               name="login"
               placeholder="Почта"
             />
             <S.ModalInput
-              class="password-first"
+              className="password-first"
               type="password"
               name="password"
               placeholder="Пароль"
             />
             <S.ModalInput
-              class="password-double"
+              className="password-double"
               type="password"
               name="password"
               placeholder="Повторите пароль"
             />
             <S.ModalBtnSignUpEnt>
-              <S.ModalBtnSignUpEntA onClick={(e) => {
-                  e.preventDefault();
-                  App();}}>Зарегистрироваться</S.ModalBtnSignUpEntA>
+              <S.ModalBtnSignUpEntA onClick={handleRegister}>Зарегистрироваться</S.ModalBtnSignUpEntA>
             </S.ModalBtnSignUpEnt>
           </S.ModalFormLogin>
         </S.ModalBlock>
