@@ -1,8 +1,8 @@
-import * as S from './app.style'
-import NavMenu from './components/navMenu/navMenu';
-import Tracklist from './components/tracklist/tracklist';
-import Sidebar from './components/sidebar/sidebar';
-import AudioPlayer from './components/audioplayer/audioplayer';
+import * as S from '../app.style'
+import NavMenu from '../components/navMenu/navMenu';
+import Tracklist from '../components/tracklist/tracklist';
+import Sidebar from '../components/sidebar/sidebar';
+import AudioPlayer from '../components/audioplayer/audioplayer';
 
 export function MainPage () {
     return(

@@ -1,5 +1,4 @@
 import * as S from './signup.style'
-import App from '../../App'
 import { useNavigate } from 'react-router-dom';
 
 function SignUp() {
