@@ -164,7 +164,6 @@ export const FilterButton = styled.div`
   `}
 `
 export const FilterPopupText = styled.p`
-  font-family: StratosSkyeng;
   font-weight: 400;
   font-size: 20px;
   height: 24px;

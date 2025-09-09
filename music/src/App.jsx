@@ -1,23 +1,11 @@
-import NavMenu from './components/navMenu/navMenu';
-import Tracklist from './components/tracklist/tracklist';
-import Sidebar from './components/sidebar/sidebar';
-import AudioPlayer from './components/audioplayer/audioplayer';
-import * as S from './app.style'
+import { MainPage } from "./pages/MainPage";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
 return(
-  <S.Wrapper>
-  <S.GlobalStyles/>
-  <S.Container>
-    <S.Main>
-      <NavMenu/>
-      <Tracklist/>
-      <Sidebar/>
-    </S.Main>
-    <AudioPlayer/>
-    <footer className="footer"></footer>
-  </S.Container>
-</S.Wrapper>
+    <Routes>
+      <Route path="/" element={<MainPage />} />
+    </Routes>
 );
 }
 

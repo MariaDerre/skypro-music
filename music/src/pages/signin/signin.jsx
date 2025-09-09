@@ -1,8 +1,11 @@
 import * as S from './signin.style'
 import App from '../../App' 
-import SignUp from '../signup/signup'
+import SignUp from '../../pages/signup/signup'
+import { useNavigate } from 'react-router-dom';
 
 function SignIn() {
+  const navigate = useNavigate();
+
     return(
     <S.Wrapper>
       <S.GlobalStyles/>
@@ -15,28 +18,28 @@ function SignIn() {
               </S.ModalLogo>
             </a>
             <S.ModalInput
-              class="login"
+              className="login"
               type="text"
               name="login"
               placeholder="Почта"
             />
             <S.ModalInput
-              class="password"
+              className="password"
               type="password"
               name="password"
               placeholder="Пароль"
             />
             <S.ModalBtnEnter>
-              <S.ModalBtnEnterA onClick={(e) => {
+              <S.ModalBtnEnterA href='#' onClick={(e) => {
                   e.preventDefault();
-                  App();}}>
+                  navigate('/')}}>
                 Войти</S.ModalBtnEnterA>
             </S.ModalBtnEnter>
             <S.ModalBtnSignUp>
-              <S.ModalBtnSignUpA onClick={(e) => {
-                  e.preventDefault();
-                  SignUp();}}>
-                Зарегистрироваться</S.ModalBtnSignUpA>
+              <S.ModalBtnSignUpA href="#" onClick={(e) => {
+                e.preventDefault();
+                navigate('/SignUp');
+              }}>Зарегистрироваться</S.ModalBtnSignUpA>
             </S.ModalBtnSignUp>
           </S.ModalFormLogin>
         </S.ModalBlock>

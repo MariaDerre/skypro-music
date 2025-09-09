@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 import * as S from './sidebar.style'
+import { Link, NavLink } from "react-router-dom";
 
 function Sidebar() {
 
@@ -47,28 +48,28 @@ function Sidebar() {
         <S.SidebarBlock>
           <S.SidebarList>
             <S.SidebarItem>
-              <S.SidebarLink href="#">
+              <NavLink className="SidebarLink" to="/category/1">
                 <S.SidebarImg
                   src="img/playlist01.png"
                   alt="day's playlist"
                 />
-              </S.SidebarLink>
+              </NavLink>
             </S.SidebarItem>
             <S.SidebarItem>
-              <S.SidebarLink href="#">
+              <NavLink className="SidebarLink" to="/category/2">
                 <S.SidebarImg
                   src="img/playlist02.png"
                   alt="day's playlist"
                 />
-              </S.SidebarLink>
+              </NavLink>
             </S.SidebarItem>
             <S.SidebarItem>
-              <S.SidebarLink href="#">
+              <NavLink className="SidebarLink" to="/category/3">
                 <S.SidebarImg
                   src="img/playlist03.png"
                   alt="day's playlist"
                 />
-              </S.SidebarLink>
+              </NavLink>
             </S.SidebarItem>
           </S.SidebarList>
         </S.SidebarBlock>
