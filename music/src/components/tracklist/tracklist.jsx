@@ -2,17 +2,14 @@ import React, { useState } from 'react';
 import Track from '../track/track';
 import * as S from './tracklist.style'
 
-function Tracklist() {
-  // Состояние активного фильтра: null или 'author' | 'year' | 'genre'
+function Tracklist({ tracks, isLoading, setCurrentTrack }) {
   const [activeFilter, setActiveFilter] = useState(null);
 
-  // Обработчик клика по кнопке фильтра
+
   const toggleFilter = (filterName) => {
     if (activeFilter === filterName) {
-      // Если кликнули по уже активному фильтру — закрываем его
       setActiveFilter(null);
     } else {
-      // Иначе открываем выбранный фильтр
       setActiveFilter(filterName);
     }
   };
@@ -101,18 +98,36 @@ function Tracklist() {
       </S.CenterBlockFilter>
 
         <S.CenterBlockContent>
-          <S.ContentTitle>
-            <S.PlaylistTitleCol width='447px'>Трек</S.PlaylistTitleCol>
-            <S.PlaylistTitleCol width='321px'>ИСПОЛНИТЕЛЬ</S.PlaylistTitleCol>
-            <S.PlaylistTitleCol width='245px'>АЛЬБОМ</S.PlaylistTitleCol>
-            <S.PlaylistTitleCol width='60px' align = 'end'>
-              <S.PlaylistTitleSvg alt="time">
-                <use href="img/icon/sprite.svg#icon-watch"></use>
-              </S.PlaylistTitleSvg>
-            </S.PlaylistTitleCol>
-          </S.ContentTitle>
-          <Track/>
-        </S.CenterBlockContent>
+        <S.ContentTitle>
+          <S.PlaylistTitleCol width='447px'>Трек</S.PlaylistTitleCol>
+          <S.PlaylistTitleCol width='321px'>ИСПОЛНИТЕЛЬ</S.PlaylistTitleCol>
+          <S.PlaylistTitleCol width='245px'>АЛЬБОМ</S.PlaylistTitleCol>
+          <S.PlaylistTitleCol width='60px' align='end'>
+            <S.PlaylistTitleSvg alt="time">
+              <use href="img/icon/sprite.svg#icon-watch"></use>
+            </S.PlaylistTitleSvg>
+          </S.PlaylistTitleCol>
+        </S.ContentTitle>
+
+        <S.ContentPlaylist>
+          {isLoading ? (
+            Array(10)
+              .fill({})
+              .map((_, index) => (
+                <Track key={index} isLoading={true} />
+              ))
+          ) : (
+            tracks.map((track) => (
+              <Track
+                key={track.id}
+                track={track}
+                isLoading={false}
+                onClick={() => setCurrentTrack(track)}
+              />
+            ))
+          )}
+        </S.ContentPlaylist>
+      </S.CenterBlockContent>
     </S.MainCenterBlock>
     )
 }
